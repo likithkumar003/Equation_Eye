@@ -82,7 +82,9 @@ flowchart TD
 ---
 
 
-**1️⃣📦Installation & Running Locally**
+## 📦Installation & Running Locally
+
+**1️⃣Clone Repository**
 
     git clone "https://github.com/likithkumar003/Equation_Eye.git"
     cd Equation_eye
