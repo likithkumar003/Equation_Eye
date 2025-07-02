@@ -105,3 +105,7 @@ flowchart TD
 
     python app.py
 
+**6️⃣Open http://127.0.0.1:5000/**
+
+    Ctrl+Click[http://127.0.0.1:5000/] in Terminal to open
+
