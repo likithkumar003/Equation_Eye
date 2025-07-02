@@ -87,7 +87,7 @@ flowchart TD
 **1️⃣Clone Repository**
 
     git clone "https://github.com/likithkumar003/Equation_Eye.git"
-    cd Equation_eye
+    cd Equation_Eye
 
 **2️⃣(Optional) Create a virtual environment**
 
