@@ -33,7 +33,7 @@ An intelligent, interactive math assistant that lets users **draw equations in t
 ![Architecture (10)](https://github.com/user-attachments/assets/cdf932ee-6844-4fb8-8cc8-db2d0ab1388f)
 
 ---
-## 🧠 Quick Architecture Flow
+## 🧠 Quick Architecture Workflow
 
 ```mermaid
 flowchart TD
