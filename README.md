@@ -82,19 +82,26 @@ flowchart TD
 ---
 
 
-## 📦Installation & Running Locally
+**1️⃣📦Installation & Running Locally**
 
     git clone "https://github.com/likithkumar003/Equation_Eye.git"
     cd Equation_eye
 
-## (Optional) Create a virtual environment
+**2️⃣(Optional) Create a virtual environment**
+
     python -m venv venv
     source venv/bin/activate  # On Mac
     venv\Scripts\activate # On Windows
 
-## Install dependencies
+**3️⃣Install dependencies**
+
     pip install -r requirements.txt
 
-## 🚀Start the Flask app
+**4️⃣Make sure add your API key in .env file**
+
+    GOOGLE_API_KEY=YOUR_GOOGLE_API_KEY
+
+**5️⃣🚀Start the Flask app**
+
     python app.py
 
