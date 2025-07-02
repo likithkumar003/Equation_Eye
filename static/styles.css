@@ -1,0 +1,311 @@
+/* /* body {
+    background-color: #282a36;
+    color: #f8f8f2;
+}
+
+.navbar,
+.footer {
+    background-color: #44475a;
+}
+
+.btn-purple {
+    background-color: #bd93f9;
+    color: #282a36;
+}
+
+.btn-purple:hover {
+    background-color: #ff79c6;
+    color: #282a36;
+}
+
+.card {
+    background-color: #44475a;
+    border: 1px solid #6272a4;
+}
+
+.hover-effect {
+    transition: transform 0.3s, color 0.3s;
+}
+
+.hover-effect:hover {
+    transform: scale(1.2);
+    color: #4A90E2;
+    
+}
+
+.animate-bounce {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+} */
+
+
+
+/* body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(145deg, #1f2937, #4b5563);
+    color: #e5e7eb;
+}
+
+.navbar, .footer {
+    background-color: #1f2937;
+    color: #60a5fa;
+}
+
+h1, h2, h3 {
+    color: #60a5fa;
+}
+
+p, a {
+    color: #9ca3af;
+}
+
+.btn {
+    background-color: #60a5fa;
+    color: #f9fafb;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #3b82f6;
+}
+
+.card, .instructions {
+    background-color: #374151;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover, .instructions:hover {
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.25);
+}  */
+
+
+/* before ui */
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto+Mono:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto Mono', monospace;
+    background-image: url('image.png'); 
+    background-size:auto;
+    background-attachment:fixed;
+    color: #f8f8f2;
+    transition: background 0.5s ease, color 0.5s ease;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.navbar, .footer {
+    background-color: #000000;
+}
+
+.card {
+    background-color: rgba(111, 121, 146, 0.9);
+    border: 1px solid #f7f7f7;
+    backdrop-filter: blur(10px);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-purple {
+    background-color: #bd93f9;
+    color: #282a36;
+}
+
+.btn-purple:hover {
+    background-color: #ff79c6;
+    color: #282a36;
+}
+
+#math-background {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.equation {
+    position: absolute;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Kaushan Script', cursive;
+    animation: floatEquation 10s linear infinite;
+}
+
+@keyframes floatEquation {
+    from { transform: translateY(100vh) rotate(0deg); }
+    to { transform: translateY(-10vh) rotate(360deg); }
+}
+
+.theme-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transition: background 0.3s;
+}
+
+.theme-button:hover {
+    background: rgba(255, 255, 255, 0.4);
+} */
+
+
+/* After UI */
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto+Mono:wght@300&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono', monospace;
+  background-image: url('image.png');
+  background-size: auto;
+  background-attachment: fixed;
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.navbar, .footer {
+  background-color: #bd93f9;
+}
+
+.card {
+  background-color: rgba(111, 121, 146, 0.9);
+  border: 1px solid #f7f7f7;
+  backdrop-filter: blur(10px);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-purple {
+  background-color: #bd93f9;
+  color: #282a36;
+}
+
+.btn-purple:hover {
+  background-color: #ff79c6;
+  color: #282a36;
+}
+
+#math-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.equation {
+  position: absolute;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Kaushan Script', cursive;
+  animation: floatEquation 10s linear infinite;
+}
+
+@keyframes floatEquation {
+  from { transform: translateY(100vh) rotate(0deg); }
+  to { transform: translateY(-10vh) rotate(360deg); }
+}
+
+.theme-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+.theme-button:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* Splash Screen Styles */
+.animate-fade-in {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
