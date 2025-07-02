@@ -1,10 +1,25 @@
-# ✍️ Equation Eye – AI-Powered Math Solving from Air-Writing
+# ✍️ Equation Eye – AI-Powered Virtual Math Solving from Air-Writing
 
 An intelligent, interactive math assistant that lets users **draw equations in the air**, **speak instructions**, and **solve them using Gemini AI**. Built with OpenCV, Mediapipe, Flask, and Gemini Vision & LLM APIs.
 
 ---
 
 ## 🚀 Demo Features
+
+![image](https://github.com/user-attachments/assets/c7eb56c0-a5ec-4bf4-aa12-eed517ba3173)
+![image](https://github.com/user-attachments/assets/50e7d653-99da-4eb5-bc15-e6b28b47b49d)
+![image](https://github.com/user-attachments/assets/3d4e455b-ff52-4b29-bb89-54ba12acf34e)
+![image](https://github.com/user-attachments/assets/b97b3d70-cafa-4e0e-a2c1-ed2e096f2fe6)
+![image](https://github.com/user-attachments/assets/71226d6b-5540-4705-b29b-8a2985e03ea7)
+![image](https://github.com/user-attachments/assets/f8cff73a-6821-4828-88fb-7d2284463d91)
+![image](https://github.com/user-attachments/assets/a5abeca4-d910-42aa-a048-dfbf6e577864)
+
+
+
+
+
+
+
 
 📌 Air-write any math expression using hand gestures  
 📌 Extract the equation using Gemini Vision (image-to-text)  
@@ -40,8 +55,11 @@ An intelligent, interactive math assistant that lets users **draw equations in t
 | App Architecture  | Flask + Modular File System |
 
 ---
-
 ## 🧠 Architecture Flow
+![Architecture (10)](https://github.com/user-attachments/assets/cdf932ee-6844-4fb8-8cc8-db2d0ab1388f)
+
+---
+## 🧠 Quick Architecture Flow
 
 ```mermaid
 flowchart TD
@@ -53,3 +71,23 @@ flowchart TD
     F --> G
     G --> H[Gemini Text API → AI Solving]
     H --> I[Formatted Response Shown in UI]
+```
+---
+
+
+
+## 📦Installation & Running Locally
+
+    git clone https://github.com/your-username/equation-eye
+    cd equation-eye
+
+## (Optional) Create a virtual environment
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+## Install dependencies
+    pip install -r requirements.txt
+
+## 🚀Start the Flask app
+    python app.py
+
